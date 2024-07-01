@@ -28,4 +28,4 @@ pandas==1.4.4
     ```bash
     python HW2.py
     ```
-> Hint : Because of there are some `plt.show()` api, the program may pause until user close the pop-out windows of image.
+> Hint : Due to some `plt.show()` calls in the source code, the program may pause until user closes the pop-out image windows.
