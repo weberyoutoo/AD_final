@@ -1,0 +1,114 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Evaluate breakfast_box",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "../evaluation.py",
+            "console": "integratedTerminal",
+            "cwd": "${fileDirname}/../",
+            "args": [
+                "--module_path",
+                "model",
+                "--class_name",
+                "PretrainEfficientAD",
+                "--dataset_path",
+                "datasets/mvtec_loco",
+                "--category",
+                "breakfast_box",
+                "--weights_path",
+                "pth/epoch_400_pill_weights.pth"
+            ]
+        },
+        {
+            "name": "Python Debugger: Evaluate juice_bottle",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "../evaluation.py",
+            "console": "integratedTerminal",
+            "cwd": "${fileDirname}/../",
+            "args": [
+                "--module_path",
+                "model",
+                "--class_name",
+                "PretrainEfficientAD",
+                "--dataset_path",
+                "datasets/mvtec_loco",
+                "--category",
+                "juice_bottle",
+                "--weights_path",
+                "pth/epoch_400_pill_weights.pth"
+            ]
+        },
+        {
+            "name": "Python Debugger: Evaluate pushpins",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "../evaluation.py",
+            "console": "integratedTerminal",
+            "cwd": "${fileDirname}/../",
+            "args": [
+                "--module_path",
+                "model",
+                "--class_name",
+                "PretrainEfficientAD",
+                "--dataset_path",
+                "datasets/mvtec_loco",
+                "--category",
+                "pushpins",
+                "--weights_path",
+                "pth/epoch_400_pill_weights.pth"
+            ]
+        },
+        {
+            "name": "Python Debugger: Evaluate screw_bag",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "../evaluation.py",
+            "console": "integratedTerminal",
+            "cwd": "${fileDirname}/../",
+            "args": [
+                "--module_path",
+                "model",
+                "--class_name",
+                "PretrainEfficientAD",
+                "--dataset_path",
+                "datasets/mvtec_loco",
+                "--category",
+                "screw_bag",
+                "--weights_path",
+                "pth/epoch_400_pill_weights.pth"
+            ]
+        },
+        {
+            "name": "Python Debugger: Evaluate splicing_connectors",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "../evaluation.py",
+            "console": "integratedTerminal",
+            "cwd": "${fileDirname}/../",
+            "args": [
+                "--module_path",
+                "model",
+                "--class_name",
+                "PretrainEfficientAD",
+                "--dataset_path",
+                "datasets/mvtec_loco",
+                "--category",
+                "splicing_connectors",
+                "--weights_path",
+                "pth/epoch_400_pill_weights.pth"
+            ]
+        },
+    ]
+}
+// python evaluation.py --module_path model --class_name EfficientAD --dataset_path mvtec_loco --category breakfast_box
+// breakfast_box
+// juice_bottle
+// pushpins
+// screw_bag
+// splicing_connectors
