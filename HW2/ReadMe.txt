@@ -20,7 +20,7 @@
 	(1)請先進入已安裝適當版本package的anaconda environment。
 		eg. conda activate [your_env]
 
-	(2)移動到hw1.py所在directory
+	(2)移動到HW2.py所在directory
 		eg. cd [path to HW2_112062646]\HW2_112062646
 
 	(3)執行
