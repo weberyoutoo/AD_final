@@ -3,7 +3,7 @@
 > Desc : Problem description and requirements of assignment.  
 > Report : Report of assignment.
 # Environment
-The statement below is the same as `ReadMe.txt`.
+The statement below is the same as in `ReadMe.txt`.
 ## Requirements
 ```bash
 torch==1.10.1
