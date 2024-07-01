@@ -3,7 +3,7 @@
 > Desc : Problem description and requirements of assignment.  
 > Report : Report of assignment.
 # Environment
-The statement below is same as `ReadMe.txt`.
+The statement below is the same as `ReadMe.txt`.
 ## Requirements
 ```bash
 torch==1.10.1
@@ -19,11 +19,11 @@ matplotlib==3.3.4
     ```bash
     conda activate [your_env]
     ```
-2. Move to the directory that `hw1.py` belong.
+2. Move to the directory where `hw1.py` is located.
     ```bash
     cd [path to HW1]\HW1
     ```
-3. Executing
+3. Execution
     ```bash
     python hw1.py
     ```
