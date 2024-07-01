@@ -1,5 +1,5 @@
-[![Static Badge](https://img.shields.io/badge/Desc-pdf-blue)](https://github.com/weberyoutoo/AD/blob/main/HW1/AD_HW1.pdf)
-[![Static Badge](https://img.shields.io/badge/Report-pdf-green)](https://github.com/weberyoutoo/AD/blob/main/HW1/Report.pdf)
+[![Static Badge](https://img.shields.io/badge/Desc-pdf-blue)](https://github.com/weberyoutoo/AD/blob/main/HW2/HW2.pdf)
+[![Static Badge](https://img.shields.io/badge/Report-pdf-green)](https://github.com/weberyoutoo/AD/blob/main/HW2/Report.pdf)
 > Desc : Problem description and requirements of assignment.  
 > Report : Report of assignment.
 # Environment
@@ -13,17 +13,19 @@ numpy==1.19.5
 scikit-learn==0.24.2
 scipy==1.5.4
 matplotlib==3.3.4
+pandas==1.4.4
 ```
 ## Execute
 1. Enter the environment with appropriate package version.
     ```bash
     conda activate [your_env]
     ```
-2. Move to the directory where `hw1.py` is located.
+2. Move to the directory where `HW2.py` is located.
     ```bash
-    cd [path to HW1]\HW1
+    cd [path to HW2]\HW2
     ```
 3. Execution
     ```bash
-    python hw1.py
+    python HW2.py
     ```
+> Hint : Because of there are some `plt.show()` api, the program may pause until user close the pop-out windows of image.
