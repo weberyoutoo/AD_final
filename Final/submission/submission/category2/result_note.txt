@@ -1,0 +1,83 @@
+2024-05-31 20:21==================================================w pretrain, w/o few shot
+python evaluation.py --module_path model --class_name PretrainEfficientAD --dataset_path datasets/mvtec_loco --category breakfast_box --weights_path pth/epoch_400_pill_weights.pth
+tensor(0.7723)
+tensor(0.1572)
+
+python evaluation.py --module_path model --class_name PretrainEfficientAD --dataset_path datasets/mvtec_loco --category juice_bottle --weights_path pth/epoch_400_pill_weights.pth
+tensor(0.8339)
+tensor(0.2582)
+
+python evaluation.py --module_path model --class_name PretrainEfficientAD --dataset_path datasets/mvtec_loco --category pushpins --weights_path pth/epoch_400_pill_weights.pth
+tensor(0.7137)
+tensor(0.0721)
+
+python evaluation.py --module_path model --class_name PretrainEfficientAD --dataset_path datasets/mvtec_loco --category screw_bag --weights_path pth/epoch_400_pill_weights.pth
+tensor(0.7821)
+tensor(0.1758)
+
+python evaluation.py --module_path model --class_name PretrainEfficientAD --dataset_path datasets/mvtec_loco --category splicing_connectors --weights_path pth/epoch_400_pill_weights.pth
+tensor(0.7644)
+tensor(0.1535)
+
+2024-05-31 20:47==================================================w pretrain with few shot
+python evaluation.py --module_path model --class_name PretrainEfficientAD --dataset_path datasets/mvtec_loco --category breakfast_box --weights_path pth/epoch_400_pill_weights.pth
+tensor(0.7723)
+tensor(0.1572)
+
+python evaluation.py --module_path model --class_name PretrainEfficientAD --dataset_path datasets/mvtec_loco --category juice_bottle --weights_path pth/epoch_400_pill_weights.pth
+tensor(0.8339)
+tensor(0.2582)
+
+python evaluation.py --module_path model --class_name PretrainEfficientAD --dataset_path datasets/mvtec_loco --category pushpins --weights_path pth/epoch_400_pill_weights.pth
+tensor(0.7137)
+tensor(0.0721)
+
+python evaluation.py --module_path model --class_name PretrainEfficientAD --dataset_path datasets/mvtec_loco --category screw_bag --weights_path pth/epoch_400_pill_weights.pth
+tensor(0.7821)
+tensor(0.1758)
+
+python evaluation.py --module_path model --class_name PretrainEfficientAD --dataset_path datasets/mvtec_loco --category splicing_connectors --weights_path pth/epoch_400_pill_weights.pth
+tensor(0.7644)
+tensor(0.1535)
+
+2024-06-04 17:12==================================================w/o pretrain, w few shot
+python evaluation.py --module_path model --class_name PretrainEfficientAD --dataset_path datasets/mvtec_loco --category breakfast_box
+tensor(0.7723)
+tensor(0.3046)
+
+python evaluation.py --module_path model --class_name PretrainEfficientAD --dataset_path datasets/mvtec_loco --category juice_bottle
+tensor(0.8339)
+tensor(0.1319)
+
+python evaluation.py --module_path model --class_name PretrainEfficientAD --dataset_path datasets/mvtec_loco --category pushpins
+tensor(0.7278)
+tensor(0.0770)
+
+python evaluation.py --module_path model --class_name PretrainEfficientAD --dataset_path datasets/mvtec_loco --category screw_bag
+tensor(0.7821)
+tensor(0.1711)
+
+python evaluation.py --module_path model --class_name PretrainEfficientAD --dataset_path datasets/mvtec_loco --category splicing_connectors
+tensor(0.7644)
+tensor(0.1526)
+
+2024-06-04 17:12==================================================w/o pretrain, w/o few shot
+python evaluation.py --module_path model --class_name EfficientAD --dataset_path datasets/mvtec_loco --category breakfast_box
+tensor(0.7723)
+tensor(0.3057)
+
+python evaluation.py --module_path model --class_name EfficientAD --dataset_path datasets/mvtec_loco --category juice_bottle
+tensor(0.8339)
+tensor(0.1319)
+
+python evaluation.py --module_path model --class_name EfficientAD --dataset_path datasets/mvtec_loco --category pushpins
+tensor(0.7137)
+tensor(0.0710)
+
+python evaluation.py --module_path model --class_name EfficientAD --dataset_path datasets/mvtec_loco --category screw_bag
+tensor(0.7821)
+tensor(0.1725)
+
+python evaluation.py --module_path model --class_name EfficientAD --dataset_path datasets/mvtec_loco --category splicing_connectors
+tensor(0.7644)
+tensor(0.1526)
