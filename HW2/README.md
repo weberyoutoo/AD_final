@@ -1,5 +1,5 @@
-[![Static Badge](https://img.shields.io/badge/Desc-pdf-blue)](https://github.com/weberyoutoo/AD/blob/main/HW2/HW2.pdf)
-[![Static Badge](https://img.shields.io/badge/Report-pdf-green)](https://github.com/weberyoutoo/AD/blob/main/HW2/Report.pdf)
+[![Static Badge](https://img.shields.io/badge/Desc-pdf-blue?style=flat&logo=adobe)](https://github.com/weberyoutoo/AD/blob/main/HW2/HW2.pdf)
+[![Static Badge](https://img.shields.io/badge/Report-pdf-green?style=flat&logo=adobe)](https://github.com/weberyoutoo/AD/blob/main/HW2/Report.pdf)
 > Desc : Problem description and requirements of assignment.  
 > Report : Report of assignment.
 # Environment
